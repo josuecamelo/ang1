@@ -10,6 +10,17 @@ angular
           last_name: 'Camelo'
       };
 
+      vm.list = [{
+        name: 'Daniel',
+        lastname: 'Camelo'
+      },{
+        name: 'Josué ',
+        lastname: 'Camelo'
+      },{
+        name: 'Priscila',
+        lastname: 'Camelo'
+      }];
+
       vm.alertMe = function(){
             alert(vm.person.name);
       };

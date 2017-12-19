@@ -4,7 +4,7 @@
 angular
     .module('app')
     .service('MathService', function(MathFactory) {
-        /*var data = {};
+        var data = {};
 
         this.getData = function() {
           return data;
@@ -12,7 +12,7 @@ angular
 
         this.setData = function(_data) {
           data = _data;
-        };*/
+        };
 
         this.sumService = MathFactory.sum;
         this.subService = MathFactory.sub;
