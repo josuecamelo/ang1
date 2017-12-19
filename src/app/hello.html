@@ -12,3 +12,11 @@
 
 <input type="button" data-ng-click="$ctrl.sum(num1, num2)" value="Sum" />
 <input type="button" data-ng-click="$ctrl.sub(num1, num2)" value="Sub" />
+
+
+<ul>
+    <li data-ng-repeat="item in $ctrl.list">
+        <p>{{item.name}}</p>
+        <p data-ng-bind="item.lastname"></p>
+    </li>
+</ul>
