@@ -15,6 +15,7 @@ angular
         },
         controller: function() {
             this.hero = 'This is a new component from Angular 1.5 - SON';
+            console.log(this.hero);
         }
         //template:
     });
