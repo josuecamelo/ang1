@@ -1,1 +1,7 @@
 <h1>{{ $ctrl.hello }}</h1>
+<input type="text" data-ng-model="$ctrl.person.name">
+<input type="text" data-ng-model="$ctrl.person.last_name">
+<br />
+{{ $ctrl.person.name }} / {{ $ctrl.person.last_name }}
+<br />
+<input type="submit" data-ng-click="$ctrl.alertMe()" />
